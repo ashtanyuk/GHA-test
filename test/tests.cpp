@@ -9,7 +9,7 @@ TEST(githubActionsGtestExampleTest, firstTest) {
 TEST(githubActionsGtestExampleTest, addTest) {
   const int a = 1;
   const int b = 3;
-  const int result = githubActionsGtestExample::add(a, b);
+  const int result = add(a, b);
   
   EXPECT_EQ( result, a + b );
 }
