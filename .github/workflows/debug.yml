@@ -19,5 +19,5 @@ jobs:
       run: cd build && make
     - name: Run Test
       run: |
-         ls -l /home/runner/work/github_actions_gtest_example/github_actions_gtest_example/build/test/
+         ls -l /home/runner/work/github_actions_gtest_example/
          /home/runner/work/github_actions_gtest_example/github_actions_gtest_example/build/test/github_actions_gtest_example.test
