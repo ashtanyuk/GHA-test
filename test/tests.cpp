@@ -3,14 +3,15 @@
 
 #include <gtest/gtest.h>
 
-TEST(githubActionsGtestExampleTest, firstTest) {
-  EXPECT_TRUE( 1 == 1 );
+TEST(githubActionsGtestExampleTest, firstTest)
+{
+  EXPECT_EQ(1,1);
 }
 
-TEST(githubActionsGtestExampleTest, addTest) {
+TEST(githubActionsGtestExampleTest, addTest)
+{
   const int a = 1;
   const int b = 3;
   const int result = add(a, b);
-  
-  EXPECT_EQ( result, a + b );
+  EXPECT_EQ(result, a + b);
 }
