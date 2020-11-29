@@ -6,5 +6,6 @@
 
 int main(int argc, char** argv) {
   std::cout << sayHello() << std::endl;
+  std::cout << "Hello" << std::endl;
   return 0;
 }
